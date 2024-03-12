@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(bg.png);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 1200px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*======設定開始======*/
+
+ul {}
+
+li {}
+
+li a {}
+
+li a:hover {}
+
+/*======設定結束======*/
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(226, 216, 201);
+    padding: 20px;
+    margin: 10px;
+}
+
+.container h4 {
+    text-align: center;
+}

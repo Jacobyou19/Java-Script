@@ -1,0 +1,4 @@
+手動上傳 GITHUB
+Git add .
+Git commit
+Git push

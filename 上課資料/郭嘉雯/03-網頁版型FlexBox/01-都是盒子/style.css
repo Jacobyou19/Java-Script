@@ -1,0 +1,35 @@
+img {}
+
+body {
+    background-image: url(./bg.jpg);
+    display: flex;
+    justify-content: center;
+    }
+
+div {
+    background-color: #c4f418;
+}
+
+
+h1 {
+    background-color: #d3b0b0;
+    width: 1200px;
+    height: 200px;
+}
+
+h2 {
+    background-color: #98b693;
+    width: 150px;
+    height: 200px;
+}
+
+.TT{
+     color: #e41e1e;
+
+}
+
+p {
+    background-color: #a1a7d3;
+    width: 700px;
+    height: 200px;
+}
