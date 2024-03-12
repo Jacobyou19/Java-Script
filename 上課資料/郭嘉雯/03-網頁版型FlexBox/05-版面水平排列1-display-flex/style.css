@@ -19,12 +19,19 @@ img{
 
 }
 h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
 
 }
 h2{
+    margin-bottom: 20px;
+    font-size: 30px;
 
 }
 p{
+
+    margin-bottom: 20px;
 
 }
 
@@ -49,20 +56,21 @@ a{
     background-color: #cedf34;
     width: 100px;
     height: 50px;
-    display: block;
+    
 }
 ul{
-    background-color: #e94949;
+    
     display: flex;
     justify-content: space-evenly;
 } 
 li{
-    background-color: #2d40aa;
+    
     list-style: none;
     float: left;
+    margin-bottom: 20px;
 }
 li a{
-    background-color: #fff;
+    background-color: #e0b3b3;
     display:block;
     width: 150px;
     height: 50px;
@@ -72,4 +80,6 @@ li a{
     text-decoration: none;
     margin: 40px;
 }
-li a:hover{}
+li a:hover{
+    background-color: #64d932;
+    }
