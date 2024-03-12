@@ -6,11 +6,16 @@
 	margin:0;}
 	
 body{
-	background-color:#E3E1C6;}
+	background-color:#E3E1C6;
+    display: flex;
+	justify-content: center;
+
+}
+
 .wrapper{
 	width:1200px;
 	background-color:#FFF;
-	margin:0 auto;}
+
 
 .header{
 	border-top:#066 20px solid;
@@ -19,5 +24,35 @@ body{
 .header img{
 	vertical-align:bottom;}
 
+.box{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	padding: 10px;
 
+}
+.box div {
+	width: 300px;
 
+}
+
+.b1{
+	background-color: #E3E1C6;
+}
+
+.b2 {
+	background-color: #c8e3c6;
+}
+
+.b3 {
+	background-color: #ccc6e3;
+}
+.b4 {
+	background-color: #3b1cbb;
+}
+.b5 {
+	background-color: #c58c23;
+}
+.b6 {
+	background-color: #8f5663;
+}
