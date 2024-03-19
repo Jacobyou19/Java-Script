@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
     <meta charset="UTF-8">
-    <title>240319</title>
+    <title>240319-11-3</title>
 </head>
+
 <body>
     <h1 id="tt"></h1>
 
     <script>
-        
+        let n1 = prompt("請輸入一個數字");
+        let n2 = prompt("請再輸入一個數字");
+        let op = prompt("請輸入+,-,*,/");
+        n1 = parseInt(n1);
+        n2 = parseInt(n2);
+        if (op == "+") {
+            document.getElementById("tt").innerHTML = n1 + n2;
+        }
+        else if (op == "-") {
+            document.getElementById("tt").innerHTML = n1 - n2;
+        }
+        else if (op == "*") {
+            document.getElementById("tt").innerHTML = n1 * n2;
+        }
+        else if (op == "/") {
+            document.getElementById("tt").innerHTML = n1 / n2;
+        }
     </script>
 </body>
+
 </html>
-
-
