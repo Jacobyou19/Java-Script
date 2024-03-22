@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id='output'></div>
+
+    <script>
+
+         let output = document.getElementById("output");
+         var count=0;
+         let N=0
+             output.innerHTML = "<p>開始數數~!</p>";
+
+        while (count <= 1000) {
+            let count = +prompt("請輸入數字");
+            output.innerHTML +="<p>第"+count+"幾次數數</p>";
+            count++;
+
+         }
+
+         output.innerHTML+="迴圈停止";
+
+        // let output = document.getElementById("output");
+        // var count = 0;
+        // output.innerHTML = "<p>開始數數~!</p>";
+
+        // while (true) {
+        //     let count = +prompt("請輸入數字");
+        
+        //     output.innerHTML += "<p>第" + count + "次數數</p>";
+            
+        //     if (!count<=1000) { break; }
+            
+        // }
+        //  output.innerHTML += "迴圈停止";
+
+        // let N = +prompt("請輸入數字");
+        // let output = document.getAnimations("output");
+        // var count =1 ; 
+        // output.innerHTML="<p></p>"
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>數字加總</h1>
+    <input id="num" name="num" type="text">
+    <button id="btn" type="button">按下</button>
+    <h2>結果：<span id="tt"></span></h2>
+
+    <script>
+
+        document.getElementById("btn").onclick = aaa;
+
+        function aaa() {
+
+            let max = document.getElementById("num").value;
+            if (parseInt(max) != max || max <= 0) {
+
+                document.getElementById("tt").innerHTML = "結果:輸入錯誤";
+            } else {
+                result = 0;
+                let n = 1;
+                while (n <= max) {
+                    result = result + n;
+                    n++;
+                }
+            }
+            document.getElementById("tt").innerHTML = result;
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
