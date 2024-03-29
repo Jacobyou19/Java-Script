@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <h1>物件練習</h1>
     <h2 id="tt">結果</h2>
 
     <script>
 
+        let N = { n1: 3, n2: 4, n3: "你好" }
+
+        document.getElementById("tt").innerHTML = N.n1 + N.n2 + N.n3
+
+        function gogo(X) {
+            document.getElementById("tt").innerHTML = X.a + X.b
+        }
+
+        let xxx = {};
+        xxx.a = "你好";
+        xxx.b = "早安";
+        gogo(xxx);
+
 
     </script>
 </body>
+
 </html>
-
-
-
